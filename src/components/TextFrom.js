@@ -24,7 +24,7 @@ import React, { useState } from 'react'
     <div>
         <h1>{props.heading}</h1>
         <div className="mb-3">
-              <textarea className="form-control" value = {text} onChange = {handleonChange} id="myBox" rows="8"></textarea>
+              <textarea className="form-control" value = {text} onChange = {handleonChange} style = {{backgroundColor : props.mode === 'dark'? '#121212':'white',color : props.mode === 'dark'? 'white':'black'}} id="myBox" rows="8"></textarea>
         </div>
         <button className="btn btn-primary mx-3" onClick = {handleupClick}>Convert to Upper case</button>
         <button className="btn btn-primary mx-3" onClick = {handlednClick}>Convert to Lower case</button>
