@@ -5,13 +5,16 @@ import React, { useState } from 'react'
 
     const handleupClick=()=>{
         setText(text.toUpperCase())
+        props.showalert("converted to upper case",'success')
     }
     const handlednClick=()=>{
       setText(text.toLowerCase())
+      props.showalert("converted to lower case",'success')
   }
   const handleclearClick=()=>{
     
     setText("")
+    props.showalert("Cleared text",'success')
   }
  
     const handleonChange=(event)=>{
