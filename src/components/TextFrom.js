@@ -5,11 +5,11 @@ import React, { useState } from 'react'
 
     const handleupClick=()=>{
         setText(text.toUpperCase())
-        props.showalert("converted to upper case",'success')
+        props.showalert("Converted to upper case",'success')
     }
     const handlednClick=()=>{
       setText(text.toLowerCase())
-      props.showalert("converted to lower case",'success')
+      props.showalert("Converted to lower case",'success')
   }
   const handleclearClick=()=>{
     
@@ -21,6 +21,13 @@ import React, { useState } from 'react'
         console.log("this is on change");
         setText(event.target.value);
     }
+
+    const myStyle=()=>{
+      return{
+      backgroundColor : props.mode === 'dark'? 'grey':'#0d6efd',
+      borderColor:props.mode === 'dark'?'#65686b':'#0a58ca'
+    }
+    }
     
     const [text,setText] = useState("Enter text here");
   return (    
@@ -29,9 +36,9 @@ import React, { useState } from 'react'
         <div className="mb-3">
               <textarea className="form-control" value = {text} onChange = {handleonChange} style = {{backgroundColor : props.mode === 'dark'? '#121212':'white',color : props.mode === 'dark'? 'white':'black'}} id="myBox" rows="8"></textarea>
         </div>
-        <button className="btn btn-primary mx-3" onClick = {handleupClick}>Convert to Upper case</button>
-        <button className="btn btn-primary mx-3" onClick = {handlednClick}>Convert to Lower case</button>
-        <button className="btn btn-primary mx-3" onClick = {handleclearClick}>Clear Text</button>
+        <button className="btn btn-primary mx-3" style = {myStyle()} onClick = {handleupClick}>Convert to Upper case</button>
+        <button className="btn btn-primary mx-3" onClick = {handlednClick} style = {myStyle()}>Convert to Lower case</button>
+        <button className="btn btn-primary mx-3" onClick = {handleclearClick} style = {myStyle()}>Clear Text</button>
 
 
         <div className="container">

@@ -123,7 +123,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <button onClick = {toggleStyle} className="btn btn-primary my-3" type="submit">ghfttftyffyftyftyg{btnText}</button>
+      <button onClick = {toggleStyle} className="btn btn-primary my-3" type="submit">{btnText}</button>
 
     </div>
   );
