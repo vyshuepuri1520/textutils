@@ -39,7 +39,7 @@ function App() {
     document.body.style.color = "white"
     setSwt(' Light mode')
     showAlert('Dark Mode is Enabled','success')
-    document.title =  "TextUtils - Dark mode";
+    // document.title =  "TextUtils - Dark mode";
    ;
     }
     else {
@@ -48,7 +48,7 @@ function App() {
      document.body.style.color = "black"
      setSwt('Dark mode')
      showAlert('Light Mode is Enabled','success')
-     document.title =  "TextUtils - Lightmode";
+    //  document.title =                         "TextUtils - Lightmode";
     }
   }
   
@@ -61,7 +61,7 @@ function App() {
       <div className="container my-3">
       <Routes>
       <Route exact path="/about" element={<About mode = {mode}/>} />
-      <Route exact path="/" element={<TextFrom showalert={showAlert} heading="Enter text to analyze below" mode={mode} />}/>
+      <Route exact path="/" element={<TextFrom showalert={showAlert} heading="Try TextUtils - word Counter, Character Counter, Remove extra spaces" mode={mode} />}/>
         </Routes>
       </div>
       </Router>

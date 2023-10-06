@@ -48,7 +48,7 @@ export default function About(props) {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+            <strong>Analyze the text</strong>
             </button>
           </h2>
           <div
@@ -57,14 +57,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body"style = {toggleStyle()}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam a praesentium vel, rem excepturi soluta magnam hic ut illum, qui nihil, nemo placeat cupiditate deleniti obcaecati! At nihil hic quaerat velit amet accusamus nam beatae ipsam eius ipsum ullam, minima aliquam consequatur, quidem fugiat et in aliquid expedita! Soluta?
             </div>
           </div>
         </div>
@@ -78,7 +71,7 @@ export default function About(props) {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+             <strong>Free to use</strong>
             </button>
           </h2>
           <div
@@ -87,14 +80,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body"style = {toggleStyle()}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, exercitationem! Molestias nisi, atque ad deserunt sit, eligendi saepe consectetur perspiciatis vero error et veritatis facilis fugiat asperiores iure magni nesciunt assumenda sed modi, possimus animi? Dolore ex molestias ut esse minus similique eligendi suscipit beatae eius iusto? At, deserunt nobis?
             </div>
           </div>
         </div>
@@ -108,7 +94,7 @@ export default function About(props) {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Accordion Item #3
+             <strong>Browser compatible</strong>
             </button>
           </h2>
           <div
@@ -117,14 +103,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body"style = {toggleStyle()}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt corrupti eum sequi aperiam veniam explicabo neque tempora facilis quas iusto doloremque, aliquid quo accusantium, ipsa saepe quibusdam incidunt. Perferendis, omnis quidem. Reprehenderit necessitatibus maxime repellat perspiciatis libero odio deleniti quaerat repellendus. Id deleniti dolore facilis dolores architecto dolorem molestias aut.
             </div>
           </div>
         </div>
